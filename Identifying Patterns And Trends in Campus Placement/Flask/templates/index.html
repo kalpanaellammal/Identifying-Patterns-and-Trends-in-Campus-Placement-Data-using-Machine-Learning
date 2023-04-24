@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="hero">
+        <div>
+            <div>
+                <div>
+                    <h1>Identifying Patterns and Trends in Campus Placement Data using Machine Learning</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div>
+                <h2>Fill the details</h2>
+            </div>
+            <div>
+                <div>
+                    <form action="{{url_for('y_predict')}}" method="POST">
+                        <label>Age</label><br>
+                        <input type="number" id="sen1" name="sen1"><br>
+                        <label>Gender M(0), F(1)</label><br>
+                        <input type="number" id="sen2" name="sen2"><br>
+                        <label>Stream CS(0), IT(1), ECE (2), Mech(3), EEE(4), Civil(5)</label><br>
+                        <input type="number" id="sen3" name="sen3"><br>
+                            <label>Internships</label><br>
+                        <input type=" number" id="sen4" name="sen4"><br>
+                        <label>CGPA</label><br>
+                        <input type="number" id="sen5" name="sen5"><br>
+                        <label>Number of backlogs</label><br>
+                        <input type="number" id="sen6" name="sen6"><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section><!-- End About Us Section -->
+</body>
+
+</html>
